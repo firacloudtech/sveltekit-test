@@ -14,6 +14,7 @@ specifiers:
   postcss: ^8.4.20
   prettier: ^2.8.1
   prettier-plugin-svelte: ^2.9.0
+  remixicon: ^2.5.0
   svelte: ^3.55.0
   svelte-check: ^2.10.2
   svelte-preprocess: ^5.0.0
@@ -26,6 +27,7 @@ specifiers:
 
 dependencies:
   daisyui: 2.45.0_r4gnkvssmvyxmi2wmat5xbx36a
+  remixicon: 2.5.0
   svelte-preprocess: 5.0.0_uldce6htlskfyklq5y55tk7pdy
   tailwindcss: 3.2.4_postcss@8.4.20
 
@@ -1648,6 +1650,10 @@ packages:
     resolution: {integrity: sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==}
     engines: {node: '>=8'}
     dev: true
+
+  /remixicon/2.5.0:
+    resolution: {integrity: sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==}
+    dev: false
 
   /resolve-from/4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
