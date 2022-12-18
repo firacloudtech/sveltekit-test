@@ -6,7 +6,7 @@
 
 	<div class="drawer-side">
 		<label for="my-drawer-2" class="drawer-overlay" />
-		<ul class="menu p-4 w-80 bg-base-100 text-base-content border">
+		<ul class="menu p-4 w-60 bg-base-100 text-base-content border">
 			<!-- Sidebar content here -->
 			<li><a>Sidebar Item 1</a></li>
 			<li><a>Sidebar Item 2</a></li>

@@ -1,0 +1,91 @@
+{
+  "rules": {
+    "categories": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+       "sectors": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+      
+       "subcategories": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+      
+       "graphData": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+       "agents": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+      "complaintTypes": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "clients": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["email", "ic"]
+    },
+    "transactions": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      ".indexOn": ["email"]
+    },
+    "admin": {
+      ".read": "auth != null"
+    },
+      "emails":{
+        ".read" : "auth !=null",
+          ".write" : "auth !=null",
+             ".indexOn": ["date"]
+      
+    },
+      "activities":{
+        ".read" : "auth !=null",
+          ".write" : "auth !=null",
+             ".indexOn": ["createdAt"]
+      
+    },
+    
+      "contactMessages":{
+        ".read" : "auth !=null",
+          ".write" : "auth !=null"
+      
+    },
+      
+      "bugReports":{
+        ".read" : "auth !=null",
+          ".write" : "auth !=null"
+      
+    },
+    
+      "public_stats":{
+        ".read" : "true",
+          ".write" : "auth !=null"
+      
+    },
+    
+        "complaints": {
+ ".read" : "auth !=null",
+          "$id": {
+          ".read" : "true",
+          ".write" : "auth !=null"
+          }
+            
+        },
+       
+           "emails_without_ticketId":{
+        ".read" : "auth !=null",
+          ".write" : "auth !=null",
+             ".indexOn": ["date"]
+      
+    }
+       
+      
+  }
+}
